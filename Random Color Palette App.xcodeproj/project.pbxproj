@@ -11,6 +11,12 @@
 		916726932994354600DBABA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726922994354600DBABA2 /* ContentView.swift */; };
 		916726952994354900DBABA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916726942994354900DBABA2 /* Assets.xcassets */; };
 		916726982994354900DBABA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916726972994354900DBABA2 /* Preview Assets.xcassets */; };
+		916726A02994F90700DBABA2 /* ColormindAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167269F2994F90700DBABA2 /* ColormindAPI.swift */; };
+		916726A22994FD0D00DBABA2 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726A12994FD0D00DBABA2 /* ColorPalette.swift */; };
+		916726A4299500B800DBABA2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726A3299500B800DBABA2 /* Colors.swift */; };
+		916726A629957F6800DBABA2 /* ColorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726A529957F6800DBABA2 /* ColorCardView.swift */; };
+		916726A829958A7C00DBABA2 /* ClipboardMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726A729958A7C00DBABA2 /* ClipboardMessageView.swift */; };
+		916726AC29965A9900DBABA2 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726AB29965A9900DBABA2 /* MotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		916726922994354600DBABA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		916726942994354900DBABA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		916726972994354900DBABA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9167269E2994F7A800DBABA2 /* Random-Color-Palette-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Random-Color-Palette-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9167269F2994F90700DBABA2 /* ColormindAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColormindAPI.swift; sourceTree = "<group>"; };
+		916726A12994FD0D00DBABA2 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		916726A3299500B800DBABA2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		916726A529957F6800DBABA2 /* ColorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCardView.swift; sourceTree = "<group>"; };
+		916726A729958A7C00DBABA2 /* ClipboardMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardMessageView.swift; sourceTree = "<group>"; };
+		916726AB29965A9900DBABA2 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +64,15 @@
 		9167268F2994354600DBABA2 /* Random Color Palette App */ = {
 			isa = PBXGroup;
 			children = (
+				9167269E2994F7A800DBABA2 /* Random-Color-Palette-App-Info.plist */,
 				916726902994354600DBABA2 /* Random_Color_Palette_AppApp.swift */,
 				916726922994354600DBABA2 /* ContentView.swift */,
+				916726A529957F6800DBABA2 /* ColorCardView.swift */,
+				916726A729958A7C00DBABA2 /* ClipboardMessageView.swift */,
+				9167269F2994F90700DBABA2 /* ColormindAPI.swift */,
+				916726A12994FD0D00DBABA2 /* ColorPalette.swift */,
+				916726A3299500B800DBABA2 /* Colors.swift */,
+				916726AB29965A9900DBABA2 /* MotionManager.swift */,
 				916726942994354900DBABA2 /* Assets.xcassets */,
 				916726962994354900DBABA2 /* Preview Content */,
 			);
@@ -138,7 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				916726932994354600DBABA2 /* ContentView.swift in Sources */,
+				916726A4299500B800DBABA2 /* Colors.swift in Sources */,
+				916726A02994F90700DBABA2 /* ColormindAPI.swift in Sources */,
 				916726912994354600DBABA2 /* Random_Color_Palette_AppApp.swift in Sources */,
+				916726A629957F6800DBABA2 /* ColorCardView.swift in Sources */,
+				916726A22994FD0D00DBABA2 /* ColorPalette.swift in Sources */,
+				916726A829958A7C00DBABA2 /* ClipboardMessageView.swift in Sources */,
+				916726AC29965A9900DBABA2 /* MotionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +296,7 @@
 				DEVELOPMENT_TEAM = A83DTTZX83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Random-Color-Palette-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +326,7 @@
 				DEVELOPMENT_TEAM = A83DTTZX83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Random-Color-Palette-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
