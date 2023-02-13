@@ -14,7 +14,7 @@
 
 ## 👩🏻‍💻 Technologies Used
 - SwiftUI
-- Colotmind API
+- Colormind API
 - CoreMotion
 
 ## 📸 Screenshots
